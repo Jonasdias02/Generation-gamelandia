@@ -25,7 +25,7 @@ import com.gamelandia.repository.ProdutosRepository;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("produtos")
+@RequestMapping("/produtos")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class ProdutosController {
 

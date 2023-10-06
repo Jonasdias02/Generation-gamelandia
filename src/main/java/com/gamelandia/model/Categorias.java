@@ -33,7 +33,7 @@ import jakarta.validation.constraints.Size;
 		
 		@OneToMany(fetch = FetchType.LAZY, mappedBy = "categorias", cascade = CascadeType.REMOVE)
 		@JsonIgnoreProperties("categorias")
-		private List <Produtos> produtos;
+		private List<Produtos> produtos;
 		
 
 		public Long getId() {
